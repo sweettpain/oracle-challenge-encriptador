@@ -1,0 +1,250 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #f3f5fc;
+}
+
+.logo{
+    position: static;
+    width: 120px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+}
+
+.text-input{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    background: #f3f5fc;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    outline: none;
+    color: #0A3871;
+}
+
+.condiciones{
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 260px;
+    top: 851px;
+    font-size: 12px;
+}
+
+.botonesEncriptado{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;  
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+
+#botonEncriptar{
+    position: static;
+    width: 240px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    background: #0A3871;
+
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    color: white;
+    border: none;
+
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    cursor: pointer;
+}
+
+#botonEncriptar:hover{
+    opacity: 0.8;
+}
+
+#botonDesencriptar{
+    position: static;
+    width: 240px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #0A3871;
+    background: #D8DFE8;
+    
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    cursor: pointer;
+}
+
+#botonDesencriptar:hover{
+    opacity: 0.5;
+}
+
+.fondoDerecho{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 24px; 
+    background: #FFFFFF;  
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+#imgMunheco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;  
+}
+
+.areatexto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    top: 619px;
+}
+
+
+
+
+#texto{
+    position: static;
+    width: 336px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+#textarea{
+    position:static;
+    width: 336px;
+    height: 48px;
+    left: 0px;
+    top: 74px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #495057;
+
+}
+
+#textarea::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #0A3871;
+}
+
+.logoimg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.tituloPrincipal{
+    float: inherit;
+    margin-left: 15%;
+}
+
+#copiar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+
+    background: #D8DFE8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #0A3871; 
+    border: 1px solid #0A3871;
+    
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    display: none;
+
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    cursor: pointer;
+}
+
+#copiar:hover{
+    opacity: 0.5;
+} 

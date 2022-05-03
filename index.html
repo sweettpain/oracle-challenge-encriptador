@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encritpador de texto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="logoimg" src="imagenes/Logo.png" alt="Logo encriptador">  
+    <main>
+        
+        <div class="panelDerecho">
+            <textarea class="text-input" name="name" id="inputTexto" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
+            <p class="condiciones"><span class="bi bi-exclamation-circle-fill" style="color: grey;"></span> solo minusculas y sin acentos</p>  
+            <div class="botonesEncriptado">
+                <button type="button" id="botonEncriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="botonDesencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="panelIzquierdo">
+            <img class="fondoDerecho" src="imagenes/Rectangle 1.png">
+            <img id="imgMunheco" src="imagenes/Muñeco.png" alt="imgMuñeco">
+            <div class="areatexto">
+                <h1 id="texto">Ningun mensaje fue encontrado</h1>
+                <textarea id="textarea" name="name">ingrese texto a encriptar</textarea>
+            </div>
+            <button id="copiar" type="button" name="button" onclick="copiar()">copiar</button>
+        </div>
+
+        <script src="script.js"></script>
+
+    </main>
+</body>
+</html>
